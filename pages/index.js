@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -23,7 +23,7 @@ export default function Home() {
             <div><div class="p-1 px-2 mb-4 bg-purple-800">Gamer</div></div>
           </div>
         </div>
-        <img src='/towew.jpeg' width={300} className='greet-image' />
+        <Image src='/towew.jpeg' width={300} height={300}/>
         <div>
           <p>I'm a student who is currently studying at Samudra Universty Department of Informatics. A person who has an interest in Web Development, Graphic Design and Animation.</p>
           <p>You can find me here : <Link href='https://github.com/hafizgv' target='_blank' className='hover:border-b-2 font-medium border-gray-500'>GitHub</Link> | <Link href='https://www.linkedin.com/in/hafizgv/' target='_blank' className='hover:border-b-2 font-medium border-sky-500'>LinkedIn</Link> | <Link href='https://www.youtube.com/@hafizgv' target='_blank' className='hover:border-b-2 font-medium border-red-400'>YouTube</Link></p>
