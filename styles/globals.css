@@ -9,15 +9,6 @@ body{
   background-color: rgb(28 25 23);
 }
 
-.main-content{
-  height: 50rem;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  flex-flow: column;
-  flex-wrap: wrap;
-}
-
 .navbar-item{
   font-weight: 600;
   text-transform: lowercase;
