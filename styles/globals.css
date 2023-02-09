@@ -30,9 +30,8 @@ body{
 }
 
 .navbarfiller{
-  background-image: url('../public/majiko1.png');
+  background-image: url('../public/majiko.png');
   background-size: cover;
-  background-position-y: -90px;
 }
 
 .animated{
@@ -58,12 +57,6 @@ body{
   80% {margin-top: -2.22rem;}
   90% {margin-top: 0;}
   100% {margin-top: 0;}
-}
-
-@media only screen and (max-width: 900px) {
-  .container{
-    
-  }
 }
 
 @media only screen and (max-width: 650px) {
