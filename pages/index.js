@@ -14,7 +14,8 @@ export default function Home() {
       </Head>
       <Navbar/>
       <div className='navbarfiller h-20 sm:h-28 md:h-40 lg:h-52'></div>
-      <div className='flex flex-col items-center gap-5 pt-20 text-white max-w-5xl m-auto text-sm md:text-base px-10'>
+      <div className='flex flex-col items-center gap-5 py-20 text-white max-w-5xl m-auto text-sm md:text-base px-10 sm:px-20'>
+        <div className='text-base md:text-3xl font-bold text-yellow-400'>[[ 🔨 UNDER <span className='text-red-500'>CONSTRUCTION!</span> 🔨 ]]</div>
         <div id='about-me' className='flex flex-col items-center gap-2 sm:gap-0 sm:flex-row'>
           <h1>Hello, My name is Hafiz. I'm a</h1>
           <div className='animated ml-1 text-center sm:text-left text-sm overflow-hidden h-7 flex-grow'>
@@ -26,24 +27,51 @@ export default function Home() {
         <Image src='/towew.jpeg' width={300} height={300} alt='Omaga'/>
         <div>
           <p>I'm a student who is currently studying at Samudra Universty Department of Informatics. A person who has an interest in Web Developing, Graphic Artist and Animation.</p>
-          <p>You can find me here : <Link href='https://github.com/hafizgv' target='_blank' className='hover:border-b-2 font-medium border-gray-500'>GitHub</Link> | <Link href='https://www.linkedin.com/in/hafizgv/' target='_blank' className='hover:border-b-2 font-medium border-sky-500'>LinkedIn</Link> | <Link href='https://www.youtube.com/@hafizgv' target='_blank' className='hover:border-b-2 font-medium border-red-400'>YouTube</Link></p>
+          <p>You can find me here : <Link href='https://github.com/hafizgv' target='_blank' className='sm-link hover:border-b-2 font-medium border-gray-500'>GitHub 🤖</Link> | <Link href='https://www.linkedin.com/in/hafizgv/' target='_blank' className='sm-link hover:border-b-2 font-medium border-sky-500'>LinkedIn 🔗</Link> | <Link href='https://www.youtube.com/@hafizgv' target='_blank' className='sm-link hover:border-b-2 font-medium border-red-400'>YouTube 🎬</Link></p>
         </div>
         <div className='bg-stone-700 rounded-sm h-1 w-full'></div>
         <div id='projects' className='w-full'>
           <h1 className='text-2xl font-bold'>_projects.</h1>
-          <div className='grid justify-items-center md:grid-cols-2 gap-10 mt-5'>
-            <figure className='rounded'>
-              <Image className='rounded object-cover h-[300px]' src='/hafiz.jpg' width={300} height={300} />
-            </figure>
-            <figure className='rounded'>
-              <Image className='rounded object-cover h-[300px]' src='/3d.jpg' width={300} height={300} />
-            </figure>
-            <figure className='rounded'>
-              <Image className='rounded object-cover h-[300px]' src='/stop-asm.jpg' width={300} height={300} />
-            </figure>
-            <figure className='rounded'>
-              <Image className='rounded object-cover h-[300px]' src='/webm.jpg' width={300} height={300} />
-            </figure>
+          <div className='grid justify-items-center md:grid-cols-2 gap-10 mt-8'>
+            <Link href='#projects' className='project'>
+              <figure className='rounded relative -z-10'>
+                <Image className='rounded relative object-cover h-[300px]' src='/hafiz.jpg' width={300} height={300} />
+                <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
+                  <h3 className='font-semibold'>HafizGv Vector</h3>
+                  <p className='text-sm'>May, 2017</p>
+                </figcaption>
+              </figure>
+            </Link>
+            
+            <Link href='#projects' className='project'>
+              <figure className='rounded relative -z-10'>
+                <Image className='rounded relative object-cover h-[300px]' src='/3d.jpg' width={300} height={300} />
+                <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
+                  <h3 className='font-semibold'>Rumoh Aceh 3D</h3>
+                  <p className='text-sm'>July, 2022</p>
+                </figcaption>
+              </figure>
+            </Link>
+            
+            <Link href='#projects' className='project'>
+              <figure className='rounded relative -z-10'>
+                <Image className='rounded relative object-cover h-[300px]' src='/stop-asm.jpg' width={300} height={300} />
+                <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
+                  <h3 className='font-semibold'>Team Fortress 2 Animation</h3>
+                  <p className='text-sm'>April, 2018</p>
+                </figcaption>
+              </figure>
+            </Link>
+            
+            <Link href='#projects' className='project'>
+              <figure className='rounded relative -z-10'>
+                <Image className='rounded relative object-cover h-[300px]' src='/webm.jpg' width={300} height={300} />
+                <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
+                  <h3 className='font-semibold'>Shopping Mobile App Wireframe</h3>
+                  <p className='text-sm'>Juny, 2022</p>
+                </figcaption>
+              </figure>
+            </Link>
           </div>
         </div>
       </div>
