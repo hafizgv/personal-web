@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <Navbar/>
       <div className='navbarfiller h-20 sm:h-28 md:h-40 lg:h-52'></div>
-      <div className='flex flex-col items-center gap-5 pt-20 text-white px-10 text-sm sm:px-20 sm:text-base md:px-36 lg:px-52 xl:px-64'>
+      <div className='flex flex-col items-center gap-5 pt-20 text-white max-w-5xl m-auto text-sm md:text-base px-10'>
         <div id='about-me' className='flex flex-col items-center gap-2 sm:gap-0 sm:flex-row'>
           <h1>Hello, My name is Hafiz. I'm a</h1>
           <div className='animated ml-1 text-center sm:text-left text-sm overflow-hidden h-7 flex-grow'>
@@ -29,20 +29,20 @@ export default function Home() {
           <p>You can find me here : <Link href='https://github.com/hafizgv' target='_blank' className='hover:border-b-2 font-medium border-gray-500'>GitHub</Link> | <Link href='https://www.linkedin.com/in/hafizgv/' target='_blank' className='hover:border-b-2 font-medium border-sky-500'>LinkedIn</Link> | <Link href='https://www.youtube.com/@hafizgv' target='_blank' className='hover:border-b-2 font-medium border-red-400'>YouTube</Link></p>
         </div>
         <div className='bg-stone-700 rounded-sm h-1 w-full'></div>
-        <div id='#projects' className='w-full'>
+        <div id='projects' className='w-full'>
           <h1 className='text-2xl font-bold'>_projects.</h1>
-          <div className='grid justify-center items-center md:grid-cols-2 gap-5 mt-5'>
-            <figure className='rounded relative overflow-hidden'>
-              <Image className='rounded' src='/hafiz.jpg' width={300} height={300} />
+          <div className='grid justify-items-center md:grid-cols-2 gap-10 mt-5'>
+            <figure className='rounded'>
+              <Image className='rounded object-cover h-[300px]' src='/hafiz.jpg' width={300} height={300} />
             </figure>
             <figure className='rounded'>
-              <Image className='rounded' src='/3d.jpg' width={300} height={300} />
+              <Image className='rounded object-cover h-[300px]' src='/3d.jpg' width={300} height={300} />
             </figure>
             <figure className='rounded'>
-              <Image className='rounded' src='/stop-asm.jpg' width={300} height={300} />
+              <Image className='rounded object-cover h-[300px]' src='/stop-asm.jpg' width={300} height={300} />
             </figure>
             <figure className='rounded'>
-              <Image className='rounded' src='/webm.jpg' width={300} height={300} />
+              <Image className='rounded object-cover h-[300px]' src='/webm.jpg' width={300} height={300} />
             </figure>
           </div>
         </div>
