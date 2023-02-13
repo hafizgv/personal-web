@@ -33,9 +33,10 @@ export default function Home() {
         <div id='projects' className='w-full'>
           <h1 className='text-2xl font-bold'>_projects.</h1>
           <div className='grid justify-items-center md:grid-cols-2 gap-10 mt-8'>
-            <Link href='#projects' className='project'>
+
+            <Link href='#projects' className='project w-full h-full'>
               <figure className='rounded relative -z-10'>
-                <Image className='rounded relative object-cover h-[300px]' src='/hafiz.jpg' width={300} height={300} />
+                <img className='rounded relative object-cover h-[300px] w-full' src='/hafiz.jpg'/>
                 <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
                   <h3 className='font-semibold'>HafizGv Vector</h3>
                   <p className='text-sm'>May, 2017</p>
@@ -43,9 +44,9 @@ export default function Home() {
               </figure>
             </Link>
             
-            <Link href='#projects' className='project'>
+            <Link href='#projects' className='project w-full h-full'>
               <figure className='rounded relative -z-10'>
-                <Image className='rounded relative object-cover h-[300px]' src='/3d.jpg' width={300} height={300} />
+                <Image className='rounded relative object-cover h-[300px] w-full' src='/3d.jpg' width={300} height={300} />
                 <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
                   <h3 className='font-semibold'>Rumoh Aceh 3D</h3>
                   <p className='text-sm'>July, 2022</p>
@@ -53,9 +54,9 @@ export default function Home() {
               </figure>
             </Link>
             
-            <Link href='#projects' className='project'>
+            <Link href='#projects' className='project w-full h-full'>
               <figure className='rounded relative -z-10'>
-                <Image className='rounded relative object-cover h-[300px]' src='/stop-asm.jpg' width={300} height={300} />
+                <Image className='rounded relative object-cover h-[300px] w-full' src='/stop-asm.jpg' width={300} height={300} />
                 <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
                   <h3 className='font-semibold'>Team Fortress 2 Animation</h3>
                   <p className='text-sm'>April, 2018</p>
@@ -63,9 +64,9 @@ export default function Home() {
               </figure>
             </Link>
             
-            <Link href='#projects' className='project'>
+            <Link href='#projects' className='project w-full h-full'>
               <figure className='rounded relative -z-10'>
-                <Image className='rounded relative object-cover h-[300px]' src='/webm.jpg' width={300} height={300} />
+                <Image className='rounded relative object-cover h-[300px] w-full' src='/webm.jpg' width={300} height={300} />
                 <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
                   <h3 className='font-semibold'>Shopping Mobile App Wireframe</h3>
                   <p className='text-sm'>Juny, 2022</p>
