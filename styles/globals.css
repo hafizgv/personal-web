@@ -25,8 +25,12 @@ figcaption{
   transform: scale(0.95);
 }
 
+.readmore{
+  transition: 0.25s ease-in-out;
+}
+
 .project:hover figcaption{
-  color: gold;
+  color: cyan;
   height: 100%;
 }
 

@@ -7,7 +7,7 @@ const Navbar = () => {
                 <h2 className="flex items-center font-bold"><Link className="border-2 border-white rounded-md p-1" href='/'>hafizgv.</Link></h2>
                 <div className="flex items-center">
                     <Link className="navbar-item p-4" href='/about'>.About_me</Link>
-                    <Link className="navbar-item p-4" href='#projects'>.my_projects</Link>
+                    <Link className="navbar-item p-4" href='/projects'>.my_projects</Link>
                 </div>
             </nav>
         </div>

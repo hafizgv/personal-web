@@ -15,8 +15,7 @@ export default function Home() {
       <Navbar/>
       <div className='navbarfiller h-20 sm:h-28 md:h-40 lg:h-52'></div>
       <div className='flex flex-col items-center gap-5 py-20 text-white max-w-5xl m-auto text-sm md:text-base px-10 sm:px-20'>
-        <div className='text-base md:text-3xl font-bold text-yellow-400'>[[ 🔨 UNDER <span className='text-red-500'>CONSTRUCTION!</span> 🔨 ]]</div>
-        <div id='about-me' className='flex flex-col items-center gap-2 sm:gap-0 sm:flex-row'>
+          <div id='about-me' className='flex flex-col items-center gap-2 sm:gap-0 sm:flex-row'>
           <h1>Hello, My name is Hafiz. I'm a</h1>
           <div className='animated ml-1 text-center sm:text-left text-sm overflow-hidden h-7 flex-grow'>
             <div><div class="p-1 px-2 mb-4 bg-red-800">Web Developer</div></div>
@@ -26,15 +25,16 @@ export default function Home() {
         </div>
         <Image src='/towew.jpeg' width={300} height={300} alt='Omaga'/>
         <div>
-          <p>I'm a student who is currently studying at Samudra Universty Department of Informatics. A person who has an interest in Web Developing, Graphic Artist and Animation.</p>
-          <p>You can find me here : <Link href='https://github.com/hafizgv' target='_blank' className='sm-link hover:border-b-2 font-medium border-gray-500'>GitHub 🤖</Link> | <Link href='https://www.linkedin.com/in/hafizgv/' target='_blank' className='sm-link hover:border-b-2 font-medium border-sky-500'>LinkedIn 🔗</Link> | <Link href='https://www.youtube.com/@hafizgv' target='_blank' className='sm-link hover:border-b-2 font-medium border-red-400'>YouTube 🎬</Link></p>
+          <p className='font-semibold'>I'm a student who is currently studying at Samudra Universty Department of Informatics.</p> 
+          <p><br/>Welcome to my personal website, this website meant to be the place where I showcase my work, learn new thing and practicing build a website.</p>
+          <Link className='readmore border-2 border-white rounded-lg hover:text-blue-200 hover:-skew-y-6 hover:border-blue-200 inline-block py-1 px-2 mt-3' href='/about'>Keep reading ➡</Link>
         </div>
         <div className='bg-stone-700 rounded-sm h-1 w-full my-8'></div>
         <div id='projects' className='w-full'>
-          <h1 className='text-2xl font-bold'>_projects.</h1>
+          <h1 className='text-2xl font-bold'>featured_projects.</h1>
           <div className='grid justify-items-center md:grid-cols-2 gap-10 mt-8'>
 
-            <Link href='#projects' className='project w-full h-full'>
+          <Link href='/hafiz.jpg' target='_blank' className='project w-full h-full'>
               <figure className='rounded relative -z-10'>
                 <img className='rounded relative object-cover h-[300px] w-full' src='/hafiz.jpg'/>
                 <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
@@ -44,7 +44,7 @@ export default function Home() {
               </figure>
             </Link>
             
-            <Link href='#projects' className='project w-full h-full'>
+            <Link href='https://github.com/hafizgv/3DRumohAceh' target='_blank' className='project w-full h-full'>
               <figure className='rounded relative -z-10'>
                 <Image className='rounded relative object-cover h-[300px] w-full' src='/3d.jpg' width={300} height={300} />
                 <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
@@ -54,7 +54,7 @@ export default function Home() {
               </figure>
             </Link>
             
-            <Link href='#projects' className='project w-full h-full'>
+            <Link href='https://youtu.be/NJCDntkHEcQ' target='_blank' className='project w-full h-full'>
               <figure className='rounded relative -z-10'>
                 <Image className='rounded relative object-cover h-[300px] w-full' src='/stop-asm.jpg' width={300} height={300} />
                 <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
@@ -64,7 +64,7 @@ export default function Home() {
               </figure>
             </Link>
             
-            <Link href='#projects' className='project w-full h-full'>
+            <Link href='https://hafizgv.github.io/udwakmar/' target='_blank' className='project w-full h-full'>
               <figure className='rounded relative -z-10'>
                 <Image className='rounded relative object-cover h-[300px] w-full' src='/webm.jpg' width={300} height={300} />
                 <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
@@ -75,6 +75,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
+        <Link className='readmore self-start border-2 border-white rounded-lg hover:text-blue-200 hover:-skew-y-6 hover:border-blue-200 inline-block py-1 px-2 mt-3' href='/projects'>Check all projects ➡</Link>
         <div className='bg-stone-700 rounded-sm h-1 w-full my-8'></div>
         <footer className='text-center text-sm'>Copyright © 2023 HafizGv</footer>
       </div>
