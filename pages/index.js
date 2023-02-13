@@ -29,7 +29,7 @@ export default function Home() {
           <p>I'm a student who is currently studying at Samudra Universty Department of Informatics. A person who has an interest in Web Developing, Graphic Artist and Animation.</p>
           <p>You can find me here : <Link href='https://github.com/hafizgv' target='_blank' className='sm-link hover:border-b-2 font-medium border-gray-500'>GitHub 🤖</Link> | <Link href='https://www.linkedin.com/in/hafizgv/' target='_blank' className='sm-link hover:border-b-2 font-medium border-sky-500'>LinkedIn 🔗</Link> | <Link href='https://www.youtube.com/@hafizgv' target='_blank' className='sm-link hover:border-b-2 font-medium border-red-400'>YouTube 🎬</Link></p>
         </div>
-        <div className='bg-stone-700 rounded-sm h-1 w-full'></div>
+        <div className='bg-stone-700 rounded-sm h-1 w-full my-8'></div>
         <div id='projects' className='w-full'>
           <h1 className='text-2xl font-bold'>_projects.</h1>
           <div className='grid justify-items-center md:grid-cols-2 gap-10 mt-8'>
@@ -68,15 +68,16 @@ export default function Home() {
               <figure className='rounded relative -z-10'>
                 <Image className='rounded relative object-cover h-[300px] w-full' src='/webm.jpg' width={300} height={300} />
                 <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
-                  <h3 className='font-semibold'>Shopping Mobile App Wireframe</h3>
+                  <h3 className='font-semibold'>Shopping Mobile App Prototype</h3>
                   <p className='text-sm'>Juny, 2022</p>
                 </figcaption>
               </figure>
             </Link>
           </div>
         </div>
+        <div className='bg-stone-700 rounded-sm h-1 w-full my-8'></div>
+        <footer className='text-center text-sm'>Copyright © 2023 HafizGv</footer>
       </div>
-      
     </>
   )
 }
