@@ -16,10 +16,10 @@ const About = () => {
                 <h1 className='font-bold text-2xl'>Hello! I'm Hafiz,</h1>
                 <p>I'm a student who is currently studying at Samudra Universty Department of Informatics based in Aceh, Indonesia 🌏.</p>
                 <p>Currently interested on Web Developing, Graphic Artist and Animation. Here I am practicing and learning many stuff as a thing I interested on. 
-                    May it looks bad, weird and junky. But hey, I'm on the process of learning new thing here, and you're come along with my journey here 🏴‍☠️. </p>
+                    May it looks bad, weird and junky. But hey, I'm on the process of learning new thing here, and you're come along with my journey here 🚀. </p>
                 <p>If you want getting closer with me, you can find me here:
                     <br/>📌 I'm <span className='border-b border-b-orange-400'>@hafizgv</span> on <Link className='hover:text-blue-400' href='https://www.facebook.com/hafiz.gv/' target='_blank'>Facebook</Link>, <Link className='hover:text-pink-400' href='https://www.instagram.com/hafizgv/' target='_blank'>Instagram</Link>, <Link className='hover:text-cyan-400' href='https://www.linkedin.com/in/hafizgv/' target='_blank'>LinkedIn</Link> and <Link className='hover:text-red-400' href='https://www.youtube.com/@hafizgv' target='_blank'>Youtube</Link>
-                    <br/>📌 May you want contact me from <Link href='mailto:hafizgv@gmail.com' target='_blank'>email📧</Link>
+                    <br/>📌 May you want contact me from <Link className='border-b border-b-orange-400' href='mailto:hafizgv@gmail.com' target='_blank'>email📧</Link>
                 </p>
                 <div className='bg-stone-700 rounded-sm h-1 w-full my-8'></div>
                 <h1 className='font-bold text-2xl'>Career</h1>
