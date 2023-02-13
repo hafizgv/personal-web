@@ -15,7 +15,7 @@ const Projects = () => {
             <Navbar/>
             <div className='flex flex-col items-center gap-5 py-20 text-white max-w-5xl m-auto text-sm md:text-base px-10 sm:px-20'>
                 <div id='projects' className='w-full'>
-                    <h1 className='text-2xl font-bold'>Projects.</h1>
+                    <h1 className='text-2xl font-bold'>Projects</h1>
                     <p className='mt-2'>Here's all my projects from small projects to... I don't think I've made big projects yet.</p>
                     <div className='grid justify-items-center md:grid-cols-2 gap-10 mt-16'>
 
