@@ -17,10 +17,10 @@ const About = () => {
                 <p>I'm a student who is currently studying at Samudra Universty Department of Informatics based in Aceh, Indonesia 🌏.</p>
                 <p>Currently interested on Web Developing, Graphic Artist and Animation. On this website, I am practicing and learning many stuff I interested on. 
                     May it looks bad, weird and junky. But hey, I'm on the process of learning something new here, and you're come along with my journey here 🚀. </p>
-                <p>Outside of study, I play a lot of games like Team Fortress 2, SA-MP, Minecraft, Don't Starve Together and also Mobile Legends.</p>
+                <p>Outside of study, I play a lot of games like Team Fortress 2, The Sims 4, SA-MP, Minecraft, Don't Starve Together and also Mobile Legends.</p>
                 <p>If you want getting closer with me, you can find me here:
                     <br/>📌 I'm <span className='border-b border-b-orange-400'>@hafizgv</span> on <Link className='hover:text-blue-400' href='https://www.facebook.com/hafiz.gv/' target='_blank'>Facebook</Link>, <Link className='hover:text-pink-400' href='https://www.instagram.com/hafizgv/' target='_blank'>Instagram</Link>, <Link href='https://github.com/hafizgv' target='_blank' className='hover:text-gray-400'>GitHub</Link>, <Link className='hover:text-cyan-400' href='https://www.linkedin.com/in/hafizgv/' target='_blank'>LinkedIn</Link> and <Link className='hover:text-red-400' href='https://www.youtube.com/@hafizgv' target='_blank'>Youtube</Link>
-                    <br/>📌 May you want contact me from <Link className='border-b border-b-orange-400' href='mailto:hafizgv@gmail.com' target='_blank'>email📧</Link>
+                    <br/>📌 May you want contact me from <Link className='border-b border-b-orange-400 hover:bg-orange-500' href='mailto:hafizgv@gmail.com' target='_blank'>email📧</Link>
                 </p>
                 <div className='bg-stone-700 rounded-sm h-1 w-full my-8'></div>
                 <h1 className='font-bold text-2xl'>Career</h1>
