@@ -27,7 +27,7 @@ const About = () => {
                 <p><b><i>We run it on the 2005 PC Specs baby!</i></b></p>
                 <p>
                 <b>🔸  Device</b> : Laptop Acer Aspire E1-471<br/>
-                <b>🔸  Processor</b>: Intel(R) Core(TM) i3-2348M CPU @ 2.30GHz (4 CPUs), ~2.3GHz<br/>
+                <b>🔸  Processor</b> : Intel(R) Core(TM) i3-2348M CPU @ 2.30GHz (4 CPUs), ~2.3GHz<br/>
                 <b>🔸  Memory</b> : 6 GB DDR3 RAM (Dual-channel)<br/>
                 <b>🔸  OS</b> : Windows 10 Pro 64-bit<br/>
                 <b>🔸  VGA</b> : Intel(R) HD Graphics 3000<br/>
