@@ -33,7 +33,7 @@ const Projects = () => {
                         <figure className='rounded relative -z-10'>
                             <Image className='rounded relative object-cover h-[300px] w-full' src='/3d.jpg' width={300} height={300} />
                             <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
-                            <h3 className='font-semibold'>Rumoh Aceh 3D</h3>
+                            <h3 className='font-semibold'>Rumoh Aceh 3D [GLUT Library]</h3>
                             <p className='text-sm'>July, 2022</p>
                             </figcaption>
                         </figure>
@@ -73,7 +73,7 @@ const Projects = () => {
                         <figure className='rounded relative -z-10'>
                             <Image className='rounded relative object-cover h-[300px] w-full' src='/kamarsiapa.png' width={300} height={300} />
                             <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
-                            <h3 className='font-semibold'>Bedroom 3d Blender</h3>
+                            <h3 className='font-semibold'>Bedroom 3D [Blender]</h3>
                             <p className='text-sm'>Maret, 2023</p>
                             </figcaption>
                         </figure>
