@@ -13,7 +13,7 @@ const Projects = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Navbar/>
-            <div className='flex flex-col items-center gap-5 py-20 text-white max-w-5xl m-auto text-sm md:text-base px-10 sm:px-20'>
+            <div className='flex flex-col items-center gap-5 py-20 text-white max-w-5xl m-auto text-sm lg:text-base px-10 sm:px-20'>
                 <div id='projects' className='w-full'>
                     <h1 className='text-2xl font-bold'>Projects</h1>
                     <p className='mt-2'>Here's all my projects from small projects to... I don't think I've made big projects yet.</p>
@@ -74,7 +74,17 @@ const Projects = () => {
                             <Image className='rounded relative object-cover h-[300px] w-full' src='/kamarsiapa.png' width={300} height={300} />
                             <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
                             <h3 className='font-semibold'>Bedroom 3D [Blender]</h3>
-                            <p className='text-sm'>Maret, 2023</p>
+                            <p className='text-sm'>March, 2023</p>
+                            </figcaption>
+                        </figure>
+                        </Link>
+
+                        <Link href='https://youtu.be/DWw-EuRniig' target='_blank' className='project w-full h-full'>
+                        <figure className='rounded relative -z-10'>
+                            <Image className='rounded relative object-cover h-[300px] w-full' src='/spider.jpg' width={300} height={300} />
+                            <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
+                            <h3 className='font-semibold'>Spider 3D Animation [Blender]</h3>
+                            <p className='text-sm'>March, 2023</p>
                             </figcaption>
                         </figure>
                         </Link>
