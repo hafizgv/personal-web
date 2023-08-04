@@ -64,12 +64,12 @@ export default function Home() {
               </figure>
             </Link>
             
-            <Link href='https://hafizgv.github.io/udwakmar/' target='_blank' className='project w-full h-full'>
+            <Link href='https://kkncempa.vercel.app/' target='_blank' className='project w-full h-full'>
               <figure className='rounded relative -z-10'>
-                <Image className='rounded relative object-cover h-[300px] w-full' src='/webm.jpg' width={300} height={300} />
+                <Image className='rounded relative object-cover h-[300px] w-full' src='/kkncempa.png' width={300} height={300} />
                 <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
-                  <h3 className='font-semibold'>Shopping Mobile App Prototype</h3>
-                  <p className='text-sm'>Juny, 2022</p>
+                  <h3 className='font-semibold'>KKN Web Project</h3>
+                  <p className='text-sm'>July, 2023</p>
                 </figcaption>
               </figure>
             </Link>
