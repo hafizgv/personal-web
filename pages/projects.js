@@ -98,6 +98,15 @@ const Projects = () => {
                             </figcaption>
                         </figure>
                         </Link>
+                        <Link href='https://github.com/hafizgv/sppd-perpus/' target='_blank' className='project w-full h-full'>
+                        <figure className='rounded relative -z-10'>
+                            <Image className='rounded relative object-cover h-[300px] w-full' src='/sppd.png' width={300} height={300} />
+                            <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
+                            <h3 className='font-semibold'>SPPD Monitoring</h3>
+                            <p className='text-sm'>December, 2023</p>
+                            </figcaption>
+                        </figure>
+                        </Link>
                     </div>
                 </div>
                 <div className='bg-stone-700 rounded-sm h-1 w-full my-8'></div>
