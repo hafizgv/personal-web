@@ -28,10 +28,10 @@ const About = () => {
                 <p>
                 <b>🔸  Device</b> : Laptop Acer Aspire E1-471<br/>
                 <b>🔸  Processor</b> : Intel(R) Core(TM) i3-2348M CPU @ 2.30GHz (4 CPUs), ~2.3GHz<br/>
-                <b>🔸  Memory</b> : 6 GB DDR3 RAM (Dual-channel)<br/>
+                <b>🔸  Memory</b> : 4 GB DDR3 RAM<br/>
                 <b>🔸  OS</b> : Windows 10 Pro 64-bit<br/>
                 <b>🔸  VGA</b> : Intel(R) HD Graphics 3000<br/>
-                <b>🔸  Storage</b> : WD Blue SA510 2.5 250GB<br/>
+                <b>🔸  Storage</b> : JOINT SSD SATA 2.5' H500 128GB<br/>
                 <b>🔸  Mouse</b> : G102 Prodigy Gaming Mouse<br/>
                 <b>🔸  Keyboard</b> : <i>default</i><br/>
                 <b>🔸  Monitor</b> : <i>default</i><br/>
@@ -44,14 +44,14 @@ const About = () => {
                     <div>
                         <h2 className='font-semibold text-lg'>Mangayaro</h2>
                         <p>Staff
-                            <br/>Sep 2020 - Now
+                            <br/>Sep 2020 - Jan 2024
                         </p>
                     </div>
                     
                     <div>
                         <h2 className='font-semibold text-lg'>Ngomik.net</h2>
                         <p>Volunteer
-                            <br/>Aug 2020 - Now
+                            <br/>Aug 2020 - May 2023
                         </p>
                     </div>
 
