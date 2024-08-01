@@ -44,15 +44,15 @@ export default function Home() {
               </figure>
             </Link>
             
-            <Link href='https://github.com/hafizgv/3DRumohAceh' target='_blank' className='project w-full h-full'>
+            <Link href='https://github.com/hafizgv/Analog-to-Digital-Converter' target='_blank' className='project w-full h-full'>
               <figure className='rounded relative -z-10'>
-                <Image className='rounded relative object-cover h-[300px] w-full' src='/3d.jpg' width={300} height={300} />
-                <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
-                  <h3 className='font-semibold'>Rumoh Aceh 3D</h3>
-                  <p className='text-sm'>July, 2022</p>
-                </figcaption>
+                  <Image className='rounded relative object-cover h-[300px] w-full' src='/adc.png' width={300} height={300} />
+                  <figcaption className='rounded bg-zinc-800/90 backdrop-blur-sm h-16 p-2 absolute bottom-[0px] w-[100%]'>
+                  <h3 className='font-semibold'>Analog to Digital Converter MATLAB</h3>
+                  <p className='text-sm'>Jan, 2022</p>
+                  </figcaption>
               </figure>
-            </Link>
+              </Link>
             
             <Link href='https://youtu.be/NJCDntkHEcQ' target='_blank' className='project w-full h-full'>
               <figure className='rounded relative -z-10'>
