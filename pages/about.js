@@ -34,9 +34,8 @@ const About = () => {
                     <b>🔸 VGA</b> : NVIDIA GeForce GTX 1650 Ti with Max-Q Design 4 GB VRAM<br/>
                     <b>🔸 Storage</b> : KIOXIA NVMe SSD 256GB + Seagate 300GB BarraCuda 2.5" HDD<br/>
                 </p>
+                <p><b><i>(Old Laptop)</i></b><i>We run it on the 2005 PC Specs baby!</i></p>
                 <p>
-                    <p><b><i>(Old Laptop)</i></b><i>We run it on the 2005 PC Specs baby!</i></p>
-                    <p>
                     <b>🔸 Device</b> : Laptop Acer Aspire E1-471<br/>
                     <b>🔸 Processor</b> : Intel(R) Core(TM) i3-2348M CPU @ 2.30GHz (4 CPUs), ~2.3GHz<br/>
                     <b>🔸 Memory</b> : 4 GB DDR3 RAM<br/>
@@ -44,8 +43,8 @@ const About = () => {
                     <b>🔸 VGA</b> : Intel(R) HD Graphics 3000<br/>
                     <b>🔸 Storage</b> : JOINT SSD SATA 2.5' H500 128GB<br/>
                 </p>
+                <p><b><i>My Gears</i></b></p>
                 <p>
-                    <p><b><i>My Gears</i></b></p>
                     <b>🔸 Mouse</b> : G102 Prodigy Gaming Mouse<br/>
                     <b>🔸 Keyboard</b> : <i>default</i><br/>
                     <b>🔸 Monitor</b> : <i>default</i><br/>
