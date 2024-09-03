@@ -24,7 +24,7 @@ const About = () => {
                 </p>
                 <div className='bg-stone-700 rounded-sm h-1 w-full my-8'></div>
                 <h1 className='font-bold text-2xl'>Work Station 💻</h1>
-
+                
                 <p><b><i>Current Laptop</b></i></p>
                 <p>
                 <b>🔸 Device</b> : MSI GF63 Thin 9SCSR<br/>
@@ -33,7 +33,8 @@ const About = () => {
                 <b>🔸 OS</b> : Windows 11 Home Single Language 64-bit<br/>
                 <b>🔸 VGA</b> : NVIDIA GeForce GTX 1650 Ti with Max-Q Design 4 GB VRAM<br/>
                 <b>🔸 Storage</b> : KIOXIA NVMe SSD 256GB + Seagate 300GB BarraCuda 2.5" HDD<br/>
-        
+                </p>
+                <p>
                 <p><b><i>(Old Laptop)</b>We run it on the 2005 PC Specs baby!</i></p>
                 <p>
                 <b>🔸 Device</b> : Laptop Acer Aspire E1-471<br/>
@@ -42,7 +43,8 @@ const About = () => {
                 <b>🔸 OS</b> : Windows 10 Pro 64-bit<br/>
                 <b>🔸 VGA</b> : Intel(R) HD Graphics 3000<br/>
                 <b>🔸 Storage</b> : JOINT SSD SATA 2.5' H500 128GB<br/>
-
+                </p>
+                <p>
                 <p><b><i>My Gears</b></i></p>
                 <b>🔸 Mouse</b> : G102 Prodigy Gaming Mouse<br/>
                 <b>🔸 Keyboard</b> : <i>default</i><br/>
